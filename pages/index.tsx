@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import { AnnotationIcon } from "@heroicons/react/outline";
 
 import {
@@ -39,6 +40,9 @@ const features = [
 const Home: NextPage = () => {
   return (
     <Layout>
+      <Head>
+        <title>Monta Vista Competitive Programming Club (MVCPC)</title>
+      </Head>
       {/* Hero section */}
       <div className="relative">
         <div className="absolute inset-x-0 bottom-0 h-1/2" />

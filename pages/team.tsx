@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 
@@ -41,17 +42,14 @@ const people = [
     imageUrl: nathanPic,
     bio: "Nathan is currently a senior at Monta Vista High School. He is a 3x USACO Finalist, a 5x AIME qualifier, the co-creator of the USACO Guide and the co-founder of the Competitive Programming Initiative. Outside of competitive programming, he enjoys playing social deduction games like The Resistance.",
   },
-  {
-    name: "Nathan Wang",
-    role: "President",
-    imageUrl: nathanPic,
-    bio: "Nathan is currently a senior at Monta Vista High School. He is a 3x USACO Finalist, a 5x AIME qualifier, the co-creator of the USACO Guide and the co-founder of the Competitive Programming Initiative. Outside of competitive programming, he enjoys playing social deduction games like The Resistance.",
-  },
 ];
 
 const Team: NextPage = () => {
   return (
     <Layout>
+      <Head>
+        <title>Title | MVCPC</title>
+      </Head>
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">

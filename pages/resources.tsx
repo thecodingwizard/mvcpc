@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Layout from "../components/Layout";
 
 const Resources: NextPage = () => {
   return (
     <Layout>
+      <Head>
+        <title>Resources | MVCPC</title>
+      </Head>
       <div className="relative py-16 bg-white overflow-hidden">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div
