@@ -185,7 +185,7 @@ const Home: NextPage = () => {
               rel="noreferrer"
               className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"
             >
-              USACO Guide Group
+              Contact Us
             </a>
           </div>
         </div>
