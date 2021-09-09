@@ -78,12 +78,12 @@ const Home: NextPage = () => {
                     Interest Form
                   </a>
                   <a
-                    href="mailto:programmingcompetitive@gmail.com"
+                    href="https://usaco.guide/groups/join?key=0HfrDr5rzmltOZuxV53W"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                   >
-                    Contact Us
+                    USACO Guide Group
                   </a>
                 </div>
               </div>
@@ -185,7 +185,7 @@ const Home: NextPage = () => {
               rel="noreferrer"
               className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"
             >
-              Contact Us
+              USACO Guide Group
             </a>
           </div>
         </div>

@@ -40,12 +40,12 @@ const Layout: NextPage = ({ children }) => {
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
-                href="mailto:programmingcompetitive@gmail.com"
+                href="https://usaco.guide/groups/join?key=0HfrDr5rzmltOZuxV53W"
                 target="_blank"
                 rel="noreferrer"
                 className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
               >
-                Contact Us
+                USACO Guide Group
               </a>
               <a
                 href="https://forms.gle/EKcgMq9siKd3WY757"
@@ -125,12 +125,12 @@ const Layout: NextPage = ({ children }) => {
                   </a>
                   <p className="mt-6 text-center text-base font-medium text-gray-500">
                     <a
-                      href="mailto:programmingcompetitive@gmail.com"
+                      href="https://usaco.guide/groups/join?key=0HfrDr5rzmltOZuxV53W"
                       target="_blank"
                       rel="noreferrer"
                       className="text-gray-900"
                     >
-                      Contact Us
+                      USACO Guide Group
                     </a>
                   </p>
                 </div>
