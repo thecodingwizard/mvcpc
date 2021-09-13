@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
+  ChatAlt2Icon,
   DatabaseIcon,
   MenuIcon,
   UsersIcon,
@@ -37,6 +38,14 @@ const Layout: NextPage = ({ children }) => {
                   Team
                 </a>
               </Link>
+              <a
+                href="https://discord.gg/k4DSRSzBfE"
+                target="_blank"
+                rel="noreferrer"
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                Discord
+              </a>
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
@@ -111,6 +120,22 @@ const Layout: NextPage = ({ children }) => {
                           </div>
                         </a>
                       </Link>
+                      <a
+                        href="https://discord.gg/k4DSRSzBfE"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                      >
+                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                          <ChatAlt2Icon
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
+                        </div>
+                        <div className="ml-4 text-base font-medium text-gray-900">
+                          Discord
+                        </div>
+                      </a>
                     </nav>
                   </div>
                 </div>
