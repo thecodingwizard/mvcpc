@@ -9,43 +9,32 @@ import sidPic from "../public/sid.png";
 import rohinPic from "../public/rohin.png";
 import jayPic from "../public/jay.jpg";
 import janellePic from "../public/janelle.png";
+import leonPic from "../public/leon.jpg";
 
 const people = [
   {
-    name: "Nathan Wang",
-    role: "President",
-    pic: nathanPic,
-    bio: "Nathan is currently a senior at Monta Vista High School. He is a 3x USACO Finalist, a 5x AIME qualifier, the co-creator of the USACO Guide and the co-founder of the Competitive Programming Initiative. Outside of competitive programming, he enjoys playing social deduction games like The Resistance.",
-  },
-  {
     name: "Rohin Garg",
-    role: "Director of Advanced Division",
+    role: "Co-President",
     pic: rohinPic,
-    bio: "Rohin is currently a freshman at Monta Vista High School. He's a USACO Finalist, and an AIME qualifier. He's also an International Master on Codeforces, and has won many local contests.",
+    bio: "Rohin is currently a sophomore at Monta Vista High School. He's a USACO Finalist, and an AIME qualifier. He's also an International Master on Codeforces, and has won many local contests.",
   },
   {
     name: "Janelle Cai",
-    role: "Director of Beginner Division",
+    role: "Co-President",
     pic: janellePic,
-    bio: "Janelle is a junior at Monta Vista. She is in the gold division for USACO and is a 2x AIME qualifier. She has had experience teaching coding classes for 2 years. In her free time, she likes to fold origami and listen to music.",
+    bio: "Janelle is a junior at Monta Vista. She is in the gold division for USACO and is a 4x AIME qualifier. In her free time, she likes to fold origami and listen to music.",
   },
   {
     name: "Ishanvi Kommula",
-    role: "Director of Beginner Division",
+    role: "Vice President",
     pic: ishanviPic,
-    bio: "Ishanvi Kommula is a sophomore at Monta Vista High School. Ishanvi likes competitive programming and computer science.",
+    bio: "Ishanvi Kommula is a junior at Monta Vista High School. Ishanvi likes competitive programming and is in the Gold division in USACO. She draws and solves jigsaw puzzles in her free time.",
   },
   {
-    name: "Siddhant Jain",
-    role: "Director of Outreach",
-    pic: sidPic,
-    bio: "Siddhant is currently a sophomore at Monta Vista High School. He has over seven years of programming experience and takes part in programming competitions regularly.",
-  },
-  {
-    name: "Jay Yeung",
-    role: "Director of Logistics",
-    pic: jayPic,
-    bio: "Jay Yeung is currently a junior at Monta Vista High School. He participates in USACO and competitive programming. He is also a AIME qualifier and loves participating in hackathons.",
+    name: "Leon Liu",
+    role: "Director of Beginner Division",
+    pic: leonPic,
+    bio: "Leon Liu is a senior at Monta Vista High School. He loves competitive programming and researching AI.",
   },
 ];
 
