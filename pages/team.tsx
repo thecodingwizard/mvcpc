@@ -22,7 +22,7 @@ const people = [
     name: "Janelle Cai",
     role: "Co-President",
     pic: janellePic,
-    bio: "Janelle is a junior at Monta Vista. She is in the gold division for USACO and is a 4x AIME qualifier. In her free time, she likes to fold origami and listen to music.",
+    bio: "Janelle is a senior at Monta Vista. She is in the gold division for USACO and is a 4x AIME qualifier. In her free time, she likes to fold origami and listen to music.",
   },
   {
     name: "Ishanvi Kommula",
